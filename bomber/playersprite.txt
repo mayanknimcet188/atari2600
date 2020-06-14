@@ -1,0 +1,38 @@
+Frame0
+        .byte #%00001000;$18
+        .byte #%01111111;$0A
+        .byte #%00111110;$0E
+        .byte #%00011100;$0E
+        .byte #%00011100;$02
+        .byte #%00001000;$B6
+        .byte #%00001000;$0E
+        .byte #%00001000;$08
+Frame1
+        .byte #%00001000;$18
+        .byte #%00111110;$0A
+        .byte #%00011100;$0E
+        .byte #%00011100;$0E
+        .byte #%00011100;$02
+        .byte #%00001000;$B6
+        .byte #%00001000;$0E
+        .byte #%00001000;$08
+
+ColorFrame0
+        .byte #$18;
+        .byte #$0A;
+        .byte #$0E;
+        .byte #$0E;
+        .byte #$02;
+        .byte #$B6;
+        .byte #$0E;
+        .byte #$08;
+ColorFrame1
+        .byte #$18;
+        .byte #$0A;
+        .byte #$0E;
+        .byte #$0E;
+        .byte #$02;
+        .byte #$B6;
+        .byte #$0E;
+        .byte #$08;
+
